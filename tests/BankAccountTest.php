@@ -1,6 +1,8 @@
 <?php declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
+require "C:\Users\cedri\Desktop\M2 EXO\genie_logiciel\src\Service\BankAccount.php";
+
 
 final class BankAccountTest extends TestCase
 {
@@ -16,4 +18,6 @@ final class BankAccountTest extends TestCase
         $account->credit(100);
         $this->assertEquals($account->getBalance(), 100);
     }
+
+    public function test
 }
